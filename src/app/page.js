@@ -20,7 +20,7 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        <div className={styles.ctas}>
+        <div className={styles.cts}>
           <a
             className={styles.primary}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -45,6 +45,8 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <p><a href="/about">About Us</a></p>
+        <p><a href="/contact">Contact</a></p>
       </main>
       <footer className={styles.footer}>
         <a

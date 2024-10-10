@@ -9,6 +9,9 @@
     --foreground: #ededed;
   }
 }
+main{
+  text-align: center;
+}
 
 html,
 body {
