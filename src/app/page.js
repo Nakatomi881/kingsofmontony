@@ -46,8 +46,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <p><Link href="/about">About Us</Link></p>
-        <p><Link href="/contact">Contact</Link></p>
+       
       </main>
       <footer className={styles.footer}>
         <a
