@@ -37,12 +37,6 @@ a{
   padding-right: 80px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
 @media screen and (max-width:1536px) {
   .wrapper{
     max-width: 1336px;
