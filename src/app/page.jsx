@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import styles from "./page.module.css";
-import Navbar from './components/navbar/Navbar';
-import Footer from './components/footer/footer';
 import Featured from './components/featured/Featured';
 import CategoryList from './components/categoryList/CategoryList';
 import CardList from './components/cardList/CardList';
