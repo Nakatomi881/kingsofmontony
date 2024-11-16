@@ -1,12 +1,17 @@
-import Link from "next/link";
+import styles from './blogPage.module.css';
+import CardList from '../components/cardList/CardList';
+import Menu from '../components/menu/Menu';
 
-export default function BlogPage({  }) {
+const BlogPage = () => {
     return (
-    
-    <main> 
-        <h1>The Blog</h1>
-        <p><Link href="/blog/post-1">Post 1</Link></p>
-        <p><Link href="/blog/post-2">Post 2</Link></p>
-    </main>
-    );
+        <div className={styles.container}>
+            <h1 className={styles.title}>Coding Blog</h1>
+            <div className={styles.content}>
+                <CardList />
+                <Menu />
+            </div>
+        </div>
+    )
 }
+
+export default BlogPage
