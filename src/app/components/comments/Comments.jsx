@@ -11,10 +11,10 @@ const Comments = () => {
         <div className={styles.write}>
           <textarea
             placeholder="write a comment..."
-            className={styles.input}
+            className={styles.input} id="commentTextarea"
           ></textarea>
 
-          <button className={styles.button}>Send</button>
+          <button className={styles.button} id="button">Send</button>
         </div>
       ) : (
         <Link href="/login">Login to write a comment</Link>
