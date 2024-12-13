@@ -13,7 +13,8 @@
     "kings-of-monotony": "file:",
     "next": "^15.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-quill": "^0.0.2"
   },
   "devDependencies": {
     "eslint": "^8",
