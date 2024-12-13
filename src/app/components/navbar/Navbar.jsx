@@ -11,7 +11,9 @@ const Navbar = () => {
       <div className={styles.social}>
         <Image src="/linkedin.png" alt="LinkedIn" width={48} height={48} />
       </div>
-      <div className={styles.logo}>Kings of Monotony</div>
+      <div className={styles.logo}>
+        <Image src="/kofm.webp" alt="kingsofMonotonylogo" width={68} height={48} />
+        </div>
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/" className={styles.link}>

@@ -8,7 +8,7 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.info}>
         <div className={styles.logo}>
-            <Image src="/thrown.webp" alt="k of M blog" width={50} height={50}/>
+            <Image src="/kofm.webp" alt="k of M blog" width={50} height={50}/>
             <h1 className={styles.logoText}>K of M blog</h1>
         </div>
         <p className={styles.desc}>
